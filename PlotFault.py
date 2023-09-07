@@ -86,15 +86,17 @@ class SetUp:
                 xaxis_title="X Axis",
                 yaxis_title="Y Axis",
                 zaxis_title="Z Axis",
-                aspectmode="data",
+                aspectmode="manual",
+                aspectratio=dict(x=1, y=1, z=0.08),
                 xaxis=dict(range=[-200, 300]),
                 yaxis=dict(range=[-300, 200])
             ),
-            scene_camera=dict(eye=dict(x=0., y=-1.2, z=2.5)),
+            scene_camera=dict(eye=dict(x=0., y=-0.4, z=0.9)),
             width=580,
             height=580,
             coloraxis=dict(colorscale=f"{colorscale}",
                            colorbar_title=f"{title}", )
         )
+        fig.write_html(f"html/{output_name}.html")
 
-        return fig.write_html(f"html/{output_name}.html")
+        return fig.show()

@@ -3,6 +3,5 @@
 .ipynb_checkpoints
 __pycache__
 .idea/
-html/
 tri/gmt/
 test.py

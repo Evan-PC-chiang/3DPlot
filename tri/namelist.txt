@@ -51,4 +51,3 @@ ryukyu_trench_in
 N_oki
 S_oki
 ryukyu_trench_out
-detachment

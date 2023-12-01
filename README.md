@@ -8,6 +8,10 @@ We define our fault into several continuous triangular patches with radious of 5
 
 To make the best use of the interactive graphs, I also use reveal.js, a presentation software based on html and java script, to make slides thats able to embeded those interactive graphs. It's easy to manage and build by html elements and CSS. It's basically a power point in browser, means it could enbed interactive graphs just like a website. It can host by Github like as a github page, so it doesn't need any extra care about the compatibility between different computer as long as it is able to access the internet. It could export as a pdf file as well. 
 
+
+
+https://github.com/Evan-PC-chiang/3DPlot
+
 ## Folder Structure
 
 `Plot_maker.ipynb` is a jupyter notebook file combines 3 parts: `11Plot`, `build_figure`, `detachment_plot`,and `writeGMT`. 

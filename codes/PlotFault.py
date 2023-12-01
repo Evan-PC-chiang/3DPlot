@@ -143,12 +143,12 @@ class SetUp:
             vals = [0, 30, 60, 90]
             text = ['0', '30', '60', '90']
         else:  # dir
-            colorscale = 'edge'
-            title = 'Slip<br> Direction'
-            minc = -180
-            maxc = 180
-            vals = [-180, -90, 0, 90, 180]
-            text = ['West', 'South', 'East', 'North', 'West']
+            colorscale = 'YlOrRd_r'
+            title = 'Depth <br> Km'
+            minc = -30
+            maxc = 0
+            vals = [-30, -15, 0]
+            text = ['-30', '-15', '0']
         fig = go.Figure(data=self.surface_list)
         fig.update_layout(
             scene=dict(

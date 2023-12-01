@@ -5,3 +5,4 @@ __pycache__
 .idea/
 tri/gmt/
 test.py
+pyGMT/grd_data/Taiwan/*

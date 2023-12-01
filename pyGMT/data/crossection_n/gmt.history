@@ -1,0 +1,9 @@
+# GMT 6 Session common arguments shelf
+BEGIN GMT 6.4.0
+B	x25+lDistance(km)y20+lRate(mm)WSne+tShort term North
+J	X
+JX	X24/4
+R	-60/70/-20/60
+Y	2.5i
+@L	25
+END
